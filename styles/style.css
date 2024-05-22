@@ -1,0 +1,9 @@
+:root{
+    --light-blue: #ACC8E5;
+    --dark-blue: #112A46; 
+}
+body{
+    font-family: 'Papyrus','Lucida Sans','Garamond' ;
+    background-image: linear-gradient(var(--light-blue), var(--dark-blue));
+    height: 100vh;
+}
