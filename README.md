@@ -15,3 +15,10 @@
 
 ### Using Drawio to do a rough wireframe
 ![Draw.IO Image](./Images/Drawio.png)    
+
+### Commenced HTML and CSS
+- Added Favicon, set up style links, created image, page, and styles folders
+- Researched and set Main and Secondary Colours in :root 
+- Researched and set fonts
+- Created custom images for links
+- Setup ids for links to facilitate animation
