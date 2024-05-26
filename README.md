@@ -33,3 +33,7 @@
 ### Stylised Index.html
 - Added animation and box shadows to image links
 - Added copyright symbol to footer and altered colour &#169;
+
+### Added External links to footer
+- Github
+- LinkedIn
