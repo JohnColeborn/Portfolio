@@ -2,17 +2,94 @@
     --light-blue: #ACC8E5;
     --dark-blue: #112A46; 
 }
+
 body{
     font-family: 'Papyrus','Lucida Sans','Garamond' ;
     background-image: linear-gradient(var(--light-blue), var(--dark-blue));
-    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+header{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 10px;
+gap: 10px;
+}
+#img-logo{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.img-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 0;       
+    #link-one{
+        animation-name: slide-in-right;
+        animation-duration: 2s;
+    }
+    #link-two{
+        animation-name: slide-in-spiral;
+        animation-duration: 2s;
+    }
+    #link-three{
+        animation-name: slide-in-right;
+        animation-duration: 2s;
+    }
+
 }
 .img-links img{
     height: 150px;
     width: 150px;
+    box-shadow: -0px -0px 144px -16px rgba(0,0,0,0.75);
 }
 .img-footer img{
     border-radius: 30%;
     height: 40px;
     width: 40px;
 }
+footer{
+    color: var(--light-blue);
+}
+
+/* Animations for Links sliding in and around */
+ @keyframes slide-in-right{
+    0% {
+      transform: translateX(1000px) scaleX(2.5) scaleY(0.2);
+      transform-origin: 0% 50%;
+      filter: blur(20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0) scaleY(1) scaleX(1);
+      transform-origin: 50% 50%;
+      filter: blur(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-spiral{
+    0% {
+      transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+      transform-origin: 0% 50%;
+      filter: blur(20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0) scaleY(1) scaleX(1);
+      transform-origin: 50% 50%;
+      filter: blur(0);
+      opacity: 1;
+    }
+  }

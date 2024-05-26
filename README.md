@@ -28,3 +28,8 @@
 - Updated htmls, added blog.html and updated links
 - Deploy error. Plx save me.
 - Updated styling on images
+- Stumped for the moment on deploy errors
+
+### Stylised Index.html
+- Added animation and box shadows to image links
+- Added copyright symbol to footer and altered colour &#169;
