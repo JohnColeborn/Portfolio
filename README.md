@@ -27,3 +27,4 @@
 - Initial deploy succesful
 - Updated htmls, added blog.html and updated links
 - Deploy error. Plx save me.
+- Updated styling on images

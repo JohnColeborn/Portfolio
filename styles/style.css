@@ -7,3 +7,12 @@ body{
     background-image: linear-gradient(var(--light-blue), var(--dark-blue));
     height: 100vh;
 }
+.img-links img{
+    height: 150px;
+    width: 150px;
+}
+.img-footer img{
+    border-radius: 30%;
+    height: 40px;
+    width: 40px;
+}
