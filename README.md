@@ -42,5 +42,7 @@
 ### Created Blog.html, Updated css and created seperate sheet for services
 
 ### Polished Different Media styles and quality tested
+- Found about 12 major issues, resolved.
 
-## Created about styles, contact styles and optimised for resonsive design
+### Created about styles, contact styles and optimised for resonsive design
+- Further optimisation of each stylesheet.

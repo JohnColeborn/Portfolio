@@ -250,8 +250,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin: 50px 0;
-    padding-bottom: 140px;
+    margin-top: 120px;
     #link-one{
         animation-name: slide-in-right;
         animation-duration: 2s;

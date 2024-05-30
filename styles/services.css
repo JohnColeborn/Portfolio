@@ -57,9 +57,7 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
-    margin: 50px 0;
-    padding-bottom: 140px;
+    text-align: center;   
 }
 .img-links img{
     height: 150px;
@@ -144,7 +142,7 @@ footer{
 }
 } 
  /* TABLET SETUP */
-@media screen and (min-width: 401px) {
+@media screen and (min-width: 401px) and (max-width: 1600px) {
   .img-links{
     display: flex;
     flex-direction: column;
@@ -168,7 +166,6 @@ footer{
     }
 }
 }
-
 /* PC SETUP */
 @media screen and (min-width: 1601px) {
 .img-links{
@@ -176,11 +173,9 @@ footer{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin: 50px 0;
-    padding-bottom: 140px;
+    margin-top: 40px;
     p{
-     width: 100%;
-         
+     width: 100%;         
     }
     #link-one{
         animation-name: slide-in-right;
@@ -225,6 +220,7 @@ article{
   height: 150px;
   perspective: 1000px; 
   position: relative;
+  
 }  
 .flip-card-inner {
   position: absolute;
@@ -232,6 +228,7 @@ article{
   height: 100%;    
   transition: transform 0.8s;
   transform-style: preserve-3d;
+
 }  
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
@@ -242,6 +239,7 @@ article{
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
+  border-radius: 10%; 
 }
 .flip-card-front {
   background-color: #bbb;
@@ -251,7 +249,13 @@ article{
   background-color: var(--light-blue);
   color: var(--dark-blue);
   transform: rotateY(180deg);
-  text-shadow: 1px 1px black;
+  border-radius: 10%;  
+  p{
+    background-color: var(--light-blue);
+    border-radius: 10%;
+    text-align: center;
+  }
+
 } 
 }
 
