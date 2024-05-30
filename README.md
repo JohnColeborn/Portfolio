@@ -42,3 +42,5 @@
 ### Created Blog.html, Updated css and created seperate sheet for services
 
 ### Polished Different Media styles and quality tested
+
+## Created about styles, contact styles and optimised for resonsive design
