@@ -37,3 +37,8 @@
 ### Added External links to footer
 - Github
 - LinkedIn
+- Blog
+
+### Created Blog.html, Updated css and created seperate sheet for services
+
+### Polished Different Media styles and quality tested
