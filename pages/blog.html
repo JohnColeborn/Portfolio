@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>John Coleborn's Blog</title>
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/blog.css">
     <link rel="shortcut icon" href="../images/Icon.png" type="image/x-icon">
 </head>
 <body>
@@ -16,72 +16,70 @@
         <a id="link-one" href="./about.html"><img src="../images/about_icon.png" alt="Hero Image of a Hero"></a>
         <a id="link-two" href="./contact.html"><img src="../images/contact_icon.png" alt="Hero Image of a Hero"></a>
         <a id="link-three" href="./services.html"><img src="../images/services_icon.png" alt="Hero Image of a Hero"></a>
-    </nav>            
-    <div class="main">
-        <div class="img-links">
-            <div id="link-one" class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-                  </div>
-                  <div class="flip-card-back">
-                    <h1>John Doe</h1>
-                    <p>Architect & Engineer</p>
-                    <p>We love that guy</p>
-                  </div>
-                </div>
-            </div>    
-            <div id="link-two" class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-                  </div>
-                  <div class="flip-card-back">
-                    <h1>John Doe</h1>
-                    <p>Architect & Engineer</p>
-                    <p>We love that guy</p>
-                  </div>
-                </div>
-            </div> 
-            <div id="link-three" class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-                  </div>
-                  <div class="flip-card-back">
-                    <h1>John Doe</h1>
-                    <p>Architect & Engineer</p>
-                    <p>We love that guy</p>
-                  </div>
-                </div>
+    </nav>
+      <div class="row">
+        <!-- Blog Cards -->
+        <div class="leftcolumn">
+          <!-- Markup Language -->
+          <div class="card">
+            <h2>What is a markup language?</h2>
+            <h5><p id="datetime"></p></h5>
+            <div class="img-post">
+              <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eligendi doloremque sit sint, ratione, ab dolorum laudantium atque libero sapiente voluptas debitis! Libero inventore, omnis quos suscipit porro dolor nobis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi tempore optio, amet maiores dicta odio! Similique, est, quia sapiente perspiciatis quam, nostrum error et laborum magnam aut quis inventore beatae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet earum iusto deleniti quisquam eius omnis quaerat laudantium itaque quas, quia perferendis? Alias eius, ipsam esse vel saepe ipsum minus sapiente!</article>
+              <img class="img-blog" src="../images/dev.avif" alt="geek">
             </div>
-            <div id="link-four" class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-                  </div>
-                  <div class="flip-card-back">
-                    <h1>John Doe</h1>
-                    <p>Architect & Engineer</p>
-                    <p>We love that guy</p>
-                  </div>
-                </div>
-            </div> 
-            <div id="link-five" class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-                  </div>
-                  <div class="flip-card-back">
-                    <h1>John Doe</h1>
-                    <p>Architect & Engineer</p>
-                    <p>We love that guy</p>
-                  </div>
-                </div>
-            </div>  
+            <p><a href="https://en.wikipedia.org/wiki/Markup_language" target="_blank"><button>HYPERTELL ME Moar!</button></a></p>
+          </div>
+          <!-- Flask -->
+          <div class="card">
+            <h2>Dabbling in Flask</h2>
+            <h5><p id="datetime1"></p></h5>
+            <div class="img-post">
+              <article>Dumplings may well be the best damn thing since sliced sashimi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi tempore optio, amet maiores dicta odio! Similique, est, quia sapiente perspiciatis quam, nostrum error et laborum magnam aut quis inventore beatae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet earum iusto deleniti quisquam eius omnis quaerat laudantium itaque quas, quia perferendis? Alias eius, ipsam esse vel saepe ipsum minus sapiente!</article>
+              <img class="img-blog" src="../images/dev.avif" alt="geek">
+            </div>
+            <p><a href="https://flask.palletsprojects.com/en/3.0.x/" target="_blank"><button>Moar Snakes!</button></a></p>
+          </div>  
+          <!-- CSS -->
+          <div class="card">
+            <h2>Wrote some CSS today</h2>
+            <h5><p id="datetime2"></p></h5>
+            <div class="img-post">
+              <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eligendi doloremque sit sint, ratione, ab dolorum laudantium atque libero sapiente voluptas debitis! Libero inventore, omnis quos suscipit porro dolor nobis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi tempore optio, amet maiores dicta odio! Similique, est, quia sapiente perspiciatis quam, nostrum error et laborum magnam aut quis inventore beatae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet earum iusto deleniti quisquam eius omnis quaerat laudantium itaque quas, quia perferendis? Alias eius, ipsam esse vel saepe ipsum minus sapiente!</article>
+              <img class="img-blog" src="../images/dev.avif" alt="geek">
+            </div>
+            <p><a href="https://css-tricks.com/" target="_blank"><button>Moar Stylin!</button></a></p>
+          </div>
+          <!-- Dumplings -->
+          <div class="card">
+            <h2>Made best dumplings yet!</h2>
+            <h5><p id="datetime3"></p></h5>
+            <div class="img-post">
+              <article>Dumplings may well be the best damn thing since sliced sashimi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi tempore optio, amet maiores dicta odio! Similique, est, quia sapiente perspiciatis quam, nostrum error et laborum magnam aut quis inventore beatae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet earum iusto deleniti quisquam eius omnis quaerat laudantium itaque quas, quia perferendis? Alias eius, ipsam esse vel saepe ipsum minus sapiente!</article>
+              <img class="img-blog" src="../images/dev.avif" alt="geek">
+            </div>
+            <p><a href="https://www.allrecipes.com/recipe/6900/dumplings/" target="_blank"><button>Moar Dumplings!!</button></a></p>
+          </div>
+          <!-- Unity -->
+          <div class="card">
+            <h2>My Unity RPG is awesome!</h2>
+            <h5><p id="datetime4"></p></h5>
+            <div class="img-post">
+              <article>Dumplings may well be the best damn thing since sliced sashimi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi tempore optio, amet maiores dicta odio! Similique, est, quia sapiente perspiciatis quam, nostrum error et laborum magnam aut quis inventore beatae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet earum iusto deleniti quisquam eius omnis quaerat laudantium itaque quas, quia perferendis? Alias eius, ipsam esse vel saepe ipsum minus sapiente!</article>
+              <img class="img-blog" src="../images/dev.avif" alt="geek">
+            </div>
+            <p><a href="https://www.youtube.com/watch?v=b8YUfee_pzc" target="_blank"><button>Moar Pixels!</button></a></p>
+          </div>
         </div>
-        <article><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, officiis? Modi praesentium nihil cupiditate repudiandae neque provident voluptas fugiat veniam odit. Nemo illum itaque molestias commodi vel ullam doloribus. Quisquam?</p></article>  
-    </div>    
+        <!-- The Hero -->
+        <div class="rightcolumn">
+          <h2>About Me</h2>
+          <div class="cardRight">            
+            <img id= "heroImg" src="../images/chef.avif" alt="chef">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit alias pariatur suscipit quos porro ut voluptatem necessitatibus ad, neque quasi ea incidunt excepturi reprehenderit architecto optio quidem laudantium dicta eaque.</p>
+          </div>         
+        </div>
+      </div>
     <footer>
         <div class="footer-links">
             <a class ="img-footer" target="_blank" href="https://github.com/JohnColeborn/Portfolio"><img src="../images/github.png" alt="github"></a>
@@ -89,5 +87,6 @@
         </div>        
         &#169;
     </footer>
+    <script src="../json.js"></script>
 </body>
 </html>

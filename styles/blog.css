@@ -1,0 +1,136 @@
+:root{
+    --light-blue: #ACC8E5;
+    --dark-blue: #112A46; 
+}
+* {
+    box-sizing: border-box;
+  }
+a:hover{
+    transform: scale(1.1);
+}
+body{
+    font-family: 'Papyrus','Lucida Sans','Garamond' ;
+    background-image: linear-gradient(var(--light-blue), var(--dark-blue));
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+header{
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 1%;
+padding: 10px;
+gap: 10px;
+h1{
+    font-size: 2em;
+}
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4vh;
+  width: 10vw;
+  gap: 5px;
+  margin:auto;
+  img{
+    height: 4vh;
+    border-radius: 30%;
+    height: 40px;
+    width: 40px;
+    margin: 0 2%;
+    box-shadow: 0px 0px 25px 5px var(--dark-blue);    
+  }
+}
+.leftcolumn {
+    float: left;
+    width: 75%;
+    color: var(--light-blue);
+    h2{
+        color: var(--dark-blue);
+    }
+}
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+    text-align: center;
+    position: sticky;
+    top: 65px;
+}  
+.img-blog{
+    height: 5em;
+    margin: 50%;
+    padding-bottom: 15px;
+    position: absolute;
+}
+.img-post {
+    background-color: var(--dark-blue);
+    width: 100%;
+    padding: 20px;
+    height: 200px;
+    border-radius: 2em;
+}
+.card {
+    background-color: var(--light-blue);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 2em;
+}
+.cardRight{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--light-blue);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 2em;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#heroImg{    
+    width: 10em;   
+}
+#img-logo{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.img-footer img{
+    border-radius: 30%;
+    height: 40px;
+    width: 40px;
+    margin: 0 2%;
+    box-shadow: 0px 0px 25px 5px var(--light-blue);
+}
+footer{
+    color: var(--light-blue);
+    margin-top: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* MOBILE SETUP */
+@media screen and (max-width:799px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }    
+} 
+ /* TABLET SETUP */
+@media screen and (min-width: 800px) and (max-width: 1600px) {
+
+}
+
+/* PC SETUP */
+@media screen and (min-width: 1601px) {
+
+}
+
+
+

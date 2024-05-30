@@ -46,3 +46,7 @@
 
 ### Created about styles, contact styles and optimised for resonsive design
 - Further optimisation of each stylesheet.
+
+### Built Basic Blog 
+- Setup for refining
+
