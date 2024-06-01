@@ -26,9 +26,12 @@ body{
       }
     p{
         width: 20vw;
-    }  
+    }      
 }
-
+#resume{
+  text-decoration: underline;
+  color: var(--light-blue);
+}
 header{
 display: flex;
 justify-content: space-around;
@@ -56,6 +59,10 @@ nav{
     margin: 0 2%;
     box-shadow: 0px 0px 25px 5px var(--dark-blue);    
   }
+}
+#yes{
+  text-decoration: none;
+  color: var(--light-blue)
 }
 #img-logo{
     height: 150px;

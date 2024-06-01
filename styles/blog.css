@@ -3,7 +3,8 @@
     --dark-blue: #112A46; 
 }
 * {
-    box-sizing: border-box;
+    box-sizing: border-box;  
+    
   }
 a:hover{
     transform: scale(1.1);
@@ -61,10 +62,10 @@ nav{
     top: 65px;
 }  
 .img-blog{
-    height: 5em;
-    margin: 50%;
-    padding-bottom: 15px;
-    position: absolute;
+    height: 5em; 
+    width: 5em;   
+    margin-left: 50%;
+    padding-top: 10px;
 }
 .img-post {
     background-color: var(--dark-blue);
@@ -72,12 +73,19 @@ nav{
     padding: 20px;
     height: 200px;
     border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.dateTime{
+    color: var(--dark-blue);    
 }
 .card {
     background-color: var(--light-blue);
     padding: 20px;
     margin-top: 20px;
-    border-radius: 2em;
+    border-radius: 2em;    
 }
 .cardRight{
     display: flex;
@@ -95,6 +103,9 @@ nav{
 }
 #heroImg{    
     width: 10em;   
+    max-height: 11em;
+    border-radius: 2em;
+   
 }
 #img-logo{
     height: 150px;
@@ -121,9 +132,45 @@ footer{
         width: 100%;
         padding: 0;
     }    
+    article{
+        overflow: hidden;
+    }
+    .img-blog{
+        height: 5em; 
+        width: 5em;   
+        margin-left: 35%;
+        padding-top: 10px;
+        border-radius: 1em;
+    }
+    #heroImg{
+        margin-top: 2em;
+    }
 } 
  /* TABLET SETUP */
 @media screen and (min-width: 800px) and (max-width: 1600px) {
+    article{
+        overflow: hidden;
+    }
+    .img-blog{
+        height: 5em; 
+        width: 5em;   
+        margin-left: 45%;
+        padding-top: 10px;
+        border-radius: 1em;
+    }
+    #heroImg{
+       margin: 2em 2em;
+    }
+    .cardRight{
+        display: grid;       
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 2em;
+        p{
+           text-align: center;
+           padding: 2em;
+        }
+    }
 
 }
 
