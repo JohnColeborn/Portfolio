@@ -80,6 +80,7 @@ article{
         width: 20%;
         color: var(--light-blue);
     }
+    margin-top: 8%;
 }
 footer{
     color: var(--light-blue);
@@ -255,7 +256,6 @@ article{
     border-radius: 10%;
     text-align: center;
   }
-
 } 
 }
 
